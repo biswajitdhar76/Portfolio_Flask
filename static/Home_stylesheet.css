@@ -150,24 +150,35 @@ section h2{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
+
 #gmail{
+  margin-left:300px;
+  margin-right: 150px;
   gap:30px;
 
 }
 
 #linkedin{
+  margin-left:300px;
+  margin-right: 150px;
   gap:30px;
 }
 
 #github{
-  gap:30px;
+  margin-left:300px;
+  margin-right: 150px;
+  gap: 30px;
 }
 
 #naukri{
+  margin-left:300px;
+  margin-right: 100px;
   gap:30px;
 }
 
 #whatsapp{
+  margin-left:300px;
+  margin-right: 150px;
   gap:30px;
 }
 
