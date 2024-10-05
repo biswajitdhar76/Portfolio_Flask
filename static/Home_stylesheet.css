@@ -81,6 +81,7 @@ section h2{
     text-decoration:none;
     background-color: #eab7f2;
     color:#032e73;
+    position: relative;
     animation: fadeInSlideUp 1s ease-out;
 }
 
