@@ -77,32 +77,29 @@ section h2{
     color:#1B5E20;
 }
 
-#contact{
-    text-decoration:none;
+.contact{
     background-color: #eab7f2;
     color:#032e73;
-    position: relative;
     animation: fadeInSlideUp 1s ease-out;
+    position:relative;
 }
 
 #contact div{
-    display:flex;
-    justify-content:left;
-    gap:10px;
-
+  display:flex;
+  justify-content:space-around;
+  position:relative;
 }
 
 #footer {
     height:50px;
     width:100%;
-    bottom:0;
+    bottom: 0;
     position: relative;
     color:#ffffff;
-    background-color:#131a22;
     text-align: center;
+    background-color:#131a22;
     font-size: larger;
 }
-
 
 #skills{
     padding-left: 50px;
@@ -125,6 +122,10 @@ section h2{
 .skills{
   display:flex;
   justify-content:space-between;
+}
+
+.skills img{
+  border-radius:50%;
 }
 
 #resume{
@@ -150,39 +151,6 @@ section h2{
     transform: scale(1.1); 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
-
-
-#gmail{
-  margin-left:100px;
-  margin-right:90px;
-  gap:30px;
-
-}
-
-#linkedin{
-  margin-left:100px;
-  margin-right: 150px;
-  gap:30px;
-}
-
-#github{
-  margin-left:100px;
-  margin-right: 150px;
-  gap: 30px;
-}
-
-#naukri{
-  margin-left:100px;
-  margin-right: 100px;
-  gap:30px;
-}
-
-#whatsapp{
-  margin-left:100px;
-  margin-right: 135px;
-  gap:30px;
-}
-
 
 /* Header */
 @keyframes fadeInSlide {
@@ -249,5 +217,3 @@ section h2{
       transform: translateY(0);
     }
 }
-
-
