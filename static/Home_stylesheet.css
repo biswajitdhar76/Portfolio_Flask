@@ -82,6 +82,10 @@ section h2{
     color:#032e73;
     animation: fadeInSlideUp 1s ease-out;
     position:relative;
+    
+}
+#contact{
+  background-color:#E8F5E9;
 }
 
 #contact div{
